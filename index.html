@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>VRM-Viewer</title>
 </head>
-<body>
+<body id="drop-zone">
+    <h1>VRM-Viewer</h1>
+    <table>
+        <tr>
+            <td>名前:</td>
+            <td id="title"></td>
+        </tr>
+        <tr>
+            <td>著者:</td>
+            <td id="author"></td>
+        </tr>
+    </table>
+    <p id="load">VRMファイルを投げ込んでくれ！</p>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="./js/GLTFLoader.js"></script>
     <script src="./js/three-vrm.js"></script>
